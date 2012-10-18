@@ -1,0 +1,31 @@
+{
+  "name": "teddybear",
+  "description": "blocks the event loop without draining your cpu",
+  "version": "0.1.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "./teddybear.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/teddybear.git"
+  },
+  "keywords": [
+    "teddybear",
+    "sleep",
+    "pause",
+    "usleep",
+    "nanosleep",
+    "timeout",
+    "block"
+  ],
+  "dependencies": {
+    "bindings": "1.0.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.8",
+    "npm": "1"
+  }
+}
